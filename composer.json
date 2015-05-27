@@ -2,6 +2,8 @@
   "name": "odom/ripcord",
   "description": "Ripcord Odoo for Laravel 5",
   "autoload": {
-    "classmap": ["ripcord.php"]
+      "psr-0": {
+        "files": ["ripcord.php"]
+      }
   }
 }
