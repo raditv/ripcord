@@ -1,9 +1,10 @@
 {
-  "name": "odom/ripcord",
-  "description": "Ripcord Odoo for Laravel 5",
-  "autoload": {
-      "psr-0": {
-        "files": ["ripcord.php"]
-      }
-  }
+  "name": "raditv/ripcord", 
+  "description": "Ripcord Odoo for Laravel 5", 
+  "autoload": { 
+    "psr-4": {
+      "odom\\ripcord\\": ""
+    }, 
+    "files": ["ripcord.php"]
+    }
 }
